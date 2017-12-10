@@ -2,7 +2,7 @@ import { DbConnectionToken } from '../../constants';
 
 import * as mongoose from 'mongoose';
 
-const uri: string = `mongodb://admin:t4n4k4@ds044667.mlab.com:44667/tanaka`
+const uri: string = `mongodb://<user>:<passwd>@<server>:<port>/<db>`
 
 export const databaseProviders = [
   {
