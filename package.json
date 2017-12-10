@@ -1,7 +1,7 @@
 {
-  "name": "nest-typescript-starter",
-  "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "name": "iluvatar",
+  "version": "0.1.0",
+  "description": "Nest TypeScript",
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
@@ -15,12 +15,17 @@
     "@nestjs/microservices": "^4.4.0",
     "@nestjs/testing": "^4.4.0",
     "@nestjs/websockets": "^4.4.0",
+    "@types/bcrypt-nodejs": "0.0.30",
+    "bcrypt-nodejs": "0.0.3",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.6",
     "redis": "^2.7.1",
     "reflect-metadata": "^0.1.10",
     "rxjs": "^5.4.0",
     "typescript": "^2.5.2"
   },
   "devDependencies": {
+    "@types/mongoose": "^4.7.28",
     "@types/node": "^8.0.28",
     "nodemon": "^1.12.1",
     "ts-node": "^3.3.0"
